@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "SUI";
+  src: local("SUI"), url("../font/SegoeUI.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SUI";
+  src: url("../font/SegoeUI-SemiBold.woff2") format("woff2");
+  src: local("SUI Semibold"), local("SegoeUI-SemiBold");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SUI";
+  src: url("../font/SegoeUI-BoldItalic.woff2") format("woff2");
+  src: local("SUI Bold Italic"), local("SegoeUI-BoldItalic");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SUI";
+  src: url("../font/SegoeUI-Light.woff2") format("woff2");
+  src: local("SUI Light"), local("SegoeUI-Light");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SUI";
+  src: url("../font/SegoeUI-Bold.woff2") format("woff2");
+  src: local("SUI Bold"), local("SegoeUI-Bold");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SUI";
+  src: url("../font/SegoeUI-Italic.woff2") format("woff2");
+  src: local("SUI Italic"), local("SegoeUI-Italic");
+  font-weight: normal;
+  font-style: italic;
+}
+
+.typo-h1 {
+  /* Сайт/H1 */
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 128.571% */
+  letter-spacing: -0.28px;
+}
+.typo-h2 {
+  /* Сайт/H2 */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.24px;
+}
+.typo-h3 {
+  /* Сайт/Н3-new */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+}
+.typo-h4 {
+  /* Сайт/H4 */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.typo-h5 {
+  /* Сайт/H5 */
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.typo-body {
+  /* Сайт/Body */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.typo-caption {
+  /* Сайт/Caption */
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 123.077% */
+}
+.typo-semibold {
+  /* Сайт/Body-semibold */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.text-color_gray {
+  color: #9797af !important;
+}
+.text-color_green {
+  color: #0cb477 !important;
+}
+.text-color_orange {
+  color: #f55123 !important;
+}
+.text-color_purple {
+  color: #cb11ab !important;
+}
+.text-inderline_green {
+  border-bottom: 1px rgba(12, 180, 119, 0.2) dashed;
+  padding-bottom: 1px;
+}
+.text-inderline_dashed {
+  text-decoration: underline dashed rgba(0, 0, 0, 0.2);
+}
+
+.typo-h1,
+.typo-h2,
+.typo-h3,
+.typo-h4,
+.typo-h5,
+.typo-body,
+.typo-caption,
+.typo-semibold {
+  font-family: "SUI";
+}
+@media (max-width: 391px) {
+  .typo-body {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .typo-h2 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.2px;
+  }
+  .typo-h1 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.2px;
+  }
+}
